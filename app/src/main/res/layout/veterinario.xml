@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="170dp"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="149dp"
+        android:background="#CD009688"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtNomeVeterinario"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Nome do veterinario"
+            android:padding="8dp"
+            android:shadowColor="#014942"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="5"
+            android:textColor="#ffffff"
+            android:textColorHint="#C1FFFFFF"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/txtTelefone"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:ems="15"
+            android:hint="(27) 99999-8989"
+            android:inputType="phone"
+            android:padding="8dp"
+            android:shadowColor="#014942"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="5"
+            android:textColor="#ffffff"
+            android:textColorHint="#C1FFFFFF"
+            android:textSize="16sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:hint="Clínica que atende"
+            android:padding="8dp"
+            android:shadowColor="#014942"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="5"
+            android:textColor="#ffffff"
+            android:textColorHint="#C1FFFFFF"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+</LinearLayout>

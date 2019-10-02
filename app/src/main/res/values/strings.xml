@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">DogVacina</string>
+
+    <string name="spinner_sexo">Escolha o Sexo</string>
+    <string-array name="linguagens">
+        <item>Macho</item>
+        <item>Fêmia</item>
+    </string-array>
+
+</resources>
